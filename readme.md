@@ -4,7 +4,7 @@
 
 This is just a quick follow up to a couple of issues you might have with the examples in `llc-intro-to-python-master` or the [PyCharm Edu tutorial][pc]
 
-At least in the latest version of [PyCharm Edu][pc] I downloaded the version of python was `2.6.9 (unknown, Jul 14 2015, 19:46:31) `
+The latest version of [PyCharm Edu][pc] uses Python Version: `2.6.9 (unknown, Jul 14 2015, 19:46:31) `
 
 You can see that by importing the system library (in any of the PyCharm `.py` files) and printing the version, as such:
 
@@ -12,6 +12,8 @@ You can see that by importing the system library (in any of the PyCharm `.py` fi
 import sys
 print(sys.version)
 ```
+
+This lead to the exercise reference code `writing_csv.py` to give me the error below:
 
 ```python
 Traceback (most recent call last):
@@ -24,7 +26,13 @@ Traceback (most recent call last):
       Process finished with exit code 1
 ```
 
-If I just run the file from the terminal then it's successful because system Python is version `2.7.10` which has the `Dictwriter.writeheader` that we need.
+If I just run the file from a terminal (iTerm/PuTTY/whatever) then it's successful because system Python is version `2.7.10` which has the `Dictwriter.writeheader` that we need.
+
+```bash
+$ python -V
+Python 2.7.10
+```
+
 
 If none of this makes sense let me know here as a comment or via Twitter and I'll help you out.
 
