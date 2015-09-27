@@ -36,7 +36,7 @@ Python 2.7.10
 
 If none of this makes sense let me know here as a comment or via Twitter and I'll help you out.
 
-Have a look at https://github.com/gyaresu/python-stuff/blob/master/filter-csv.py for a solution using `"with open"`. 
+Have a look at https://github.com/gyaresu/python-stuff/blob/master/filter-csv.py for a solution using `"with open"`([Python 2.7 Docs: Reading and Writing Files][rw]). 
 
 `with open` automatically closes the file for you but as you'll see in my code you have to 'nest' the write file inside the readfile block because outside of that block the file is closed(!)
 
@@ -52,3 +52,4 @@ Again, if you're confused by this please reach out via Twitter or comment here.
 
 [pc]:       https://www.jetbrains.com/pycharm-edu
 [so]:       http://stackoverflow.com/questions/27464503/print-out-text-using-one-string-in-python
+[rw]:       https://docs.python.org/2/tutorial/inputoutput.html#reading-and-writing-files
