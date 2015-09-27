@@ -40,6 +40,23 @@ Have a look at https://github.com/gyaresu/python-stuff/blob/master/filter-csv.py
 
 `with open` automatically closes the file for you but as you'll see in my code you have to 'nest' the write file inside the readfile block because outside of that block the file is closed(!)
 
+#### filecmp - a library for comparing files and folders
+
+I finished the programme by printing out one string if `True` and another if `False` depending on whether the file wrote to was an exact copy of the file we opened.
+
+Check out the specifics of the model online or by just reading the inbuilt documentation. 
+```python
+>>> help(filecmp)
+```
+
+##### HINT
+
+You can also get just the help for a 'method' of a library by asking for it explicitly
+
+```python
+>>> help(filecmp.cmp)
+```
+
 ### PyCharm built-in Tutorial
 
 I _highly_ recommend doing the build-in tutorial that comes with PyCharm. It's fun and guides you through the problems.
