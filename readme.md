@@ -36,7 +36,7 @@ Python 2.7.10
 
 If none of this makes sense let me know here as a comment or via Twitter and I'll help you out.
 
-Have a look at https://github.com/gyaresu/python-stuff/blob/master/filter-csv.py for a solution using `with open`. 
+Have a look at https://github.com/gyaresu/python-stuff/blob/master/filter-csv.py for a solution using `"with open"`. 
 
 `with open` automatically closes the file for you but as you'll see in my code you have to 'nest' the write file inside the readfile block because outside of that block the file is closed(!)
 
