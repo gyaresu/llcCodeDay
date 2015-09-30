@@ -13,7 +13,7 @@ import sys
 print(sys.version)
 ```
 
-This lead to the exercise reference code `writing_csv.py` to give me the error below:
+This led to the exercise reference code `writing_csv.py` to give me the error below:
 
 ```python
 Traceback (most recent call last):
